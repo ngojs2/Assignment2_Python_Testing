@@ -11,8 +11,8 @@ class TestCase(unittest.TestCase):
 
     # Tests for uppercase letters
     def test2(self):
-        pwd = 'asdf123@@#'
-        self.assertFalse(check_pwd(pwd))
+        password = 'asdf123@@#'
+        self.assertFalse(check_pwd(password))
 
 
 if __name__ == '__main__':
