@@ -19,6 +19,11 @@ class TestCase(unittest.TestCase):
         password = 'ABC123@@#'
         self.assertFalse(check_pwd(password))
 
+    # Test for digits
+    def test4(self):
+        pwd = 'ASDFabc@@#'
+        self.assertFalse(check_pwd(pwd))
+
 
 if __name__ == '__main__':
     unittest.main()
