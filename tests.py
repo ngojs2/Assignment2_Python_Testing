@@ -30,6 +30,5 @@ class TestCase(unittest.TestCase):
         self.assertFalse(check_pwd(pwd))
 
 
-
 if __name__ == '__main__':
     unittest.main()
